@@ -103,6 +103,22 @@
                                             </li>
                                             <li class="header__language-item">
                                                 <a href="" class="header__language-item-link">
+                                                    <img src="https://www.luxstay.com/icons/vi.svg" alt=""
+                                                        class="header__language-icon">
+                                                    <span class="header__language-title">Việt Nam</span>
+                                                </a>
+                                                <i class="header__currency-active-icon fas fa-check"></i>
+                                            </li>
+                                            <li class="header__language-item">
+                                                <a href="" class="header__language-item-link">
+                                                    <img src="https://www.luxstay.com/icons/vi.svg" alt=""
+                                                        class="header__language-icon">
+                                                    <span class="header__language-title">Việt Nam</span>
+                                                </a>
+                                                <i class="header__currency-active-icon fas fa-check"></i>
+                                            </li>
+                                            <li class="header__language-item">
+                                                <a href="" class="header__language-item-link">
                                                     <img src="https://www.luxstay.com/icons/en.svg" alt=""
                                                         class="header__language-icon">
                                                     <span class="header__language-title">English</span>
@@ -123,6 +139,18 @@
                                                     <span class="header__currency-text">Việt Nam Đồng</span>
                                                 </a>
                                                 <i class="header__currency-active-icon fas fa-check"></i>
+                                            </li>
+                                            <li class="header__currency-item">
+                                                <a href="" class="header__currency-item-link">
+                                                    <span class="header__currency-label">USD</span>
+                                                    <span class="header__currency-text">United States Dollar</span>
+                                                </a>
+                                            </li>
+                                            <li class="header__currency-item">
+                                                <a href="" class="header__currency-item-link">
+                                                    <span class="header__currency-label">USD</span>
+                                                    <span class="header__currency-text">United States Dollar</span>
+                                                </a>
                                             </li>
                                             <li class="header__currency-item">
                                                 <a href="" class="header__currency-item-link">
@@ -702,6 +730,11 @@
 
     headerCurrency.onclick = function () {
         currency.classList.toggle('header__currency-container--active')
+    }
+
+    modal.onclick = function () {
+        navList.classList.remove('header__navbar-list--active');
+        modal.classList.remove('open');
     }
 </script>
 
